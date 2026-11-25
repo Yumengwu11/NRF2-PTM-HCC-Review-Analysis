@@ -1,0 +1,50 @@
+display_label,hccdb_query_symbol,ptm_category,tier,table2_protein_status,functional_role,evidence_scope_note
+NFE2L2,NFE2L2,Target,Core,Not_significant_or_ND,NRF2 transcription factor (substrate),Core target transcription factor
+KEAP1,KEAP1,Ubiquitination,Core,Not_significant_or_ND,E3 substrate adaptor (KEAP1-CUL3-RBX1; negative),Canonical degradation axis; HCC validated
+CUL3,CUL3,Ubiquitination,Core,Not_significant_or_ND,E3 scaffold (KEAP1-CUL3-RBX1; negative),Canonical E3 ligase scaffold
+RBX1,RBX1,Ubiquitination,Core,Not_significant_or_ND,E3 RING subunit (KEAP1-CUL3-RBX1; negative),Canonical E3 ligase RING subunit
+BTRC,BTRC,Ubiquitination,Core,Not_significant_or_ND,E3 substrate receptor (SCF/beta-TrCP1; negative),Reported in HCC cells and DEN models
+FBXW11,FBXW11,Ubiquitination,Core,Not_significant_or_ND,E3 substrate receptor (SCF/beta-TrCP2; negative),AMPK-linked degradation shown in KEAP1-deficient non-HCC cells
+CUL1,CUL1,Ubiquitination,Core,Not_significant_or_ND,E3 scaffold (SCF/beta-TrCP complex; negative),Canonical SCF complex scaffold
+SKP1,SKP1,Ubiquitination,Core,Not_significant_or_ND,E3 adaptor (SCF/beta-TrCP complex; negative),Canonical SCF complex adaptor
+CUL4A,CUL4A,Ubiquitination,Core,Not_significant_or_ND,E3 scaffold (CRL4-WDR23; negative),"Specifically detected in NRF2-WDR23 complex (Lo et al., 2017); CUL4B excluded"
+DDB1,DDB1,Ubiquitination,Core,Not_significant_or_ND,E3 adaptor (CRL4-WDR23; negative),"CRL4-WDR23 complex adaptor (Lo et al., 2017)"
+DCAF11,DCAF11,Ubiquitination,Core,Down_Gao2019,E3 substrate receptor (WDR23 / CRL4-WDR23; negative),Validated in HepG2; clinical HCC validation pending
+SYVN1,SYVN1,Ubiquitination,Core,Not_significant_or_ND,ER-resident E3 ligase (HRD1; negative),Validated in liver cirrhosis; direct HCC NRF2 regulation unconfirmed
+SQSTM1,SQSTM1,Ubiquitination_KEAP1_Sequestration,Core,Up_Gao2019_broad;pS349_NS_Zhang2025,Autophagy adaptor (p62; indirect positive via KEAP1 sequestration),HCC validated; canonical p62 Ser349 not significantly elevated in Zhang et al. (2025) phosphoproteomics
+USP11,USP11,Deubiquitination,Core,Up_Jiang2019,Deubiquitinase (positive),Direct NRF2 stabilization validated in HCC models
+USP37,USP37,Deubiquitination,Core,Not_significant_or_ND,Deubiquitinase (positive),Direct NRF2 stabilization and sorafenib resistance in HCC models
+USP17L2,USP17L2,Deubiquitination,Core,Not_significant_or_ND,Deubiquitinase (DUB3; positive),Direct NRF2 deubiquitination shown in colorectal cancer (non-HCC)
+USP8,USP8,Deubiquitination,Core,Up_Jiang2019,Deubiquitinase (positive),Direct NRF2 deubiquitination shown in pancreatic cancer (non-HCC)
+EIF2AK3,EIF2AK3,Phosphorylation,Core,Not_significant_or_ND,ER-stress kinase (PERK; positive),Direct NRF2 phosphorylation shown in non-HCC; unvalidated in HCC
+GSK3B,GSK3B,Phosphorylation,Core,Not_significant_or_ND,Neh6 phosphodegron kinase (GSK-3beta; negative),HCC validated via PI3K-AKT and FGF19-FGFR4 signaling
+FYN,FYN,Phosphorylation,Core,Not_significant_or_ND,Tyr568 kinase promoting CRM1 nuclear export (negative),Validated in HepG2 cells
+PRKAA1,PRKAA1,Phosphorylation,Core,Down_Gao2019,AMPK catalytic subunit alpha1 (site-specific bidirectional),Site-specific opposing roles; non-canonical rewiring reported in HCC
+PRKAA2,PRKAA2,Phosphorylation,Core,Not_significant_or_ND,AMPK catalytic subunit alpha2 (site-specific bidirectional),Site-specific opposing roles depending on KEAP1/metabolic context
+CSNK2A1,CSNK2A1,Phosphorylation,Core,Not_significant_or_ND,CK2 catalytic subunit alpha (positive),Direct NRF2 phosphorylation shown in neuroblastoma (non-HCC)
+CSNK2A2,CSNK2A2,Phosphorylation,Core,Not_significant_or_ND,CK2 catalytic subunit alpha-prime (positive),CK2 catalytic isoform; direct NRF2 link unvalidated in HCC
+CSNK2B,CSNK2B,Phosphorylation,Core,Not_significant_or_ND,CK2 regulatory subunit beta (positive),CK2 holoenzyme regulatory subunit
+MAPK1,MAPK1,Phosphorylation,Core,Not_significant_or_ND,ERK2 kinase (context-dependent),"Tested in HEK293T (Sun et al., 2009); limited direct impact on stability"
+MAPK8,MAPK8,Phosphorylation,Core,Not_significant_or_ND,JNK1 kinase (context-dependent),"Tested in HEK293T (Sun et al., 2009); limited direct impact on stability"
+MAPK9,MAPK9,Phosphorylation,Core,Not_significant_or_ND,JNK2 kinase (context-dependent),"Explicitly tested in HEK293T for NRF2 phosphorylation (Sun et al., 2009)"
+EP300,EP300,Acetylation_Deacetylation,Core,Up_Jiang2019,Lysine acetyltransferase (p300; positive),Mouse K588/K591 correspond to human K596/K599 (endogenous HCC validation pending); Neh1 multi-site acetylation is a separate experiment
+CREBBP,CREBBP,Acetylation_Deacetylation,Core,Up_Jiang2019,Lysine acetyltransferase (CBP; positive),Mouse K588/K591 correspond to human K596/K599; HepG2 construct supports CBP effect while endogenous human sites await HCC validation; Neh1 acetylation separate
+NAA10,NAA10,Acetylation_Deacetylation,Core,Up_Phospho_Gao2019,Lysine acetyltransferase (ARD1; positive),Direct NRF2 acetylation/stabilization shown in colon cancer (non-HCC)
+KAT8,KAT8,Acetylation_Deacetylation,Core,Not_significant_or_ND,Lysine acetyltransferase (hMOF; positive),Direct NRF2 acetylation shown in NSCLC and 293T (non-HCC)
+SIRT1,SIRT1,Acetylation_Deacetylation,Core,Not_significant_or_ND,NAD-dependent deacetylase (context-dependent),HepG2 construct deacetylates mouse K588/K591 (human K596/K599); opposite output in SNU-449 with unmapped sites
+SIRT7,SIRT7,Acetylation_Deacetylation,Core,Not_significant_or_ND,NAD-dependent deacetylase (positive),K443/K518 deacetylation validated in Huh7 and liver injury models
+HDAC2,HDAC2,Acetylation_Deacetylation,Core,Not_significant_or_ND,Histone deacetylase (context-dependent),Reported NRF2 regulator in non-HCC model (COPD)
+HDAC3,HDAC3,Acetylation_Deacetylation,Core,Not_significant_or_ND,Histone deacetylase (negative),Reported NRF2 regulator in non-HCC models (pulmonary fibrosis / I-R injury)
+SAE1,SAE1,SUMOylation,Core,Up_Gao2019_broad,SUMO E1 activating enzyme subunit 1 (positive),Transcript elevated in HCC; causal NRF2 drive unconfirmed
+UBA2,UBA2,SUMOylation,Core,Up_Gao2019_broad,SUMO E1 activating enzyme subunit 2 (SAE2; positive),Transcript elevated in HCC; causal NRF2 drive unconfirmed
+UBE2I,UBE2I,SUMOylation,Core,Up_Jiang2019,SUMO E2 conjugating enzyme (UBC9; positive),"K110 site mapped in HEK293T; functional assays mainly in SMMC-7721 (Guo et al., 2019)"
+SUMO1,SUMO1,SUMOylation,Core,Not_significant_or_ND,SUMO modifier 1 (positive),"K110 site mapped in HEK293T; functional assays mainly in SMMC-7721 (Guo et al., 2019)"
+SUMO2,SUMO2,SUMOylation,Core,Not_significant_or_ND,SUMO modifier 2 (positive),K110/K533 stabilization shown in non-HCC models
+RNF4,RNF4,SUMOylation,Core,Not_significant_or_ND,Degradative STUbL (negative),Biochemical NRF2 degradation evidence in HepG2
+RNF111,RNF111,SUMOylation,Core,Not_significant_or_ND,Stabilizing STUbL (Arkadia; positive),Biochemical NRF2 stabilization evidence in HepG2
+OGT,OGT,Glycosylation_Deglycation,Core,Up_Jiang2019,O-GlcNAc transferase (substrate-dependent),NRF2 S103 validated in lung cancer (non-HCC); KEAP1 S104 has opposing effect
+OGA,MGEA5,Glycosylation_Deglycation,Core,Not_significant_or_ND,O-GlcNAcase eraser (context-dependent),Query HCCDB using legacy symbol MGEA5; display as OGA in figures
+FN3K,FN3K,Glycosylation_Deglycation,Core,Not_significant_or_ND,Fructosamine-3-kinase deglycation repair enzyme (positive),Validated in MYC-driven KEAP1-deleted HCC models; KEAP1-intact subtypes untested
+PARP1,PARP1,NRF2_Transcriptional_Coactivation,Core,Up_Gao2019_and_Jiang2019,Non-catalytic ARE transcriptional coactivator (positive),"Scaffolding coactivator independent of PARylation (Wu et al., 2014); NRF2-AKR1C3-PARP1 loop in HCC"
+PARP2,PARP2,PARylation,Core,Not_significant_or_ND,Direct PARylation enzyme (positive),"Direct PARylation shown in mouse C2C12; HepG2 component is expression data reanalysis (Janko et al., 2023)"
+PCDH20,PCDH20,Acetylation_Indirect,Indirect,Not_significant_or_ND,Upstream SIRT1 suppressor altering NRF2 acetylation (indirect),"Validated in SNU-449 HCC cells (Jun et al., 2023)"
